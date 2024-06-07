@@ -1,0 +1,397 @@
+:root {
+    font-size: 1em;
+    font-family: "bai jamjuree", sans-serif;
+}
+
+body {
+    background: white;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+main.container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.first-section {
+    padding-top: 6em;
+    background: url("images/bg-header-mobile.png");
+    background-repeat: no-repeat;
+}
+
+.second-section {
+    margin-top: 8em;
+}
+
+.first-section-logo {
+    text-align: center;
+}
+
+#c-logo {
+    width: 20%;
+}
+
+.header-paragraph,
+.second-section-header,
+.third-section-header,
+.article-header {
+    font-weight: 700;
+    font-size: 2rem;
+    width: 89%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 1em;
+    color: hsl(210, 10%, 33%);
+}
+
+.first-section-paragraph,
+.second-section-paragraph,
+.article-paragraph,
+.third-section-paragraph,
+.div-paragraph {
+    font-weight: 400;
+    font-size: 0.8rem;
+    width: 68%;
+    text-align: center;
+    line-height: 1.8em;
+    margin-top: 1.5em;
+    color: hsl(201, 11%, 66%);
+}
+
+.ios-mac-container {
+    width: 100%;
+}
+
+.ios,
+.mac {
+    width: 45%;
+    text-align: center;
+    font-weight: 400;
+    font-size: .7rem;
+    padding: 1.3em 4em;
+    margin: 0 auto;
+    margin-top: 2em;
+    border-radius: 5.2em;
+   color: white;
+}
+
+.ios {
+    background-color: hsl(171, 66%, 44%);
+}
+
+.mac {
+    background-color: hsl(233, 100%, 69%);
+}
+
+
+.second-section-header,
+.third-section-header {
+    font-size: 1.5rem;
+}
+
+.articles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.articles img,
+.third-section img {
+    width: 68%;
+    margin-top: 3em;
+}
+
+article {
+    margin-top: 1em;
+}
+
+.article-header {
+    font-size: 1rem;
+}
+
+.div-article {
+    font-weight: 700;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.article-paragraph,
+.third-section-paragraph,
+.div-paragraph {
+    margin: 0 auto;
+    margin-top: 1.8em;
+}
+
+.third-section {
+    margin-top: 5em;
+}
+
+.third-section-image {
+    text-align: center;
+}
+
+.third-section .div-article img {
+    margin: 0;
+    margin-top: 1.5em;
+    width: 8%;
+}
+
+.third-section-article div-topic {
+    margin-top: 3em;
+    padding: 0;
+    color: hsl(210, 10%, 33%);
+}
+
+.div-paragraph {
+    margin-top: 1em; 
+}
+
+.third-section-article img {
+    width: 10%;
+    margin: 0 auto;
+    margin-top: 3.3em;
+    margin-bottom: 0.5em;
+}
+
+.div-topic {
+    font-size: 1rem;
+}
+
+.browsers {
+    margin: 7em 0; 
+}
+
+.browsers p {
+    padding: 0;
+    text-align: center;
+}
+
+#browser {
+    width: 50%;
+    margin-top: 1em;
+    margin-bottom: 0;
+
+}
+
+.clipboard-download {
+    margin-bottom: 10em;
+}
+
+.clipboard-download .article-header {
+    font-size: 1.2rem;
+    width: 60%;
+}
+
+.clipboard-download .article-paragraph {
+    margin-bottom: 5em;
+
+}
+
+.container-footer {
+    width: 100%;
+    background: hsl(201, 11%, 66%, 0.1);
+}
+
+.container-footer #c-logo {
+    width: 30%;
+}
+
+.container-footer p{
+    font-weight: 400;
+    font-size: 0.7rem;
+    margin: 0;
+    margin-top: 2em;
+}
+
+.container-footer .icons {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5em;
+    
+}
+
+@media (min-width: 375px) {
+    body {
+    }
+    
+    .first-section {
+        background: url("images/bg-header-desktop.png");
+        background-size: cover;
+        width: 100%;
+    }
+    
+    .header-paragraph {
+        width: 100%;
+    }
+    
+    .second-section-paragraph {
+        width: 58%;
+    }
+    
+    .articles {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .second-section img {
+        width: 50%;
+    }
+    
+    .articles-div {
+        margin-left: 5em;
+    }
+    
+    .article-header {
+        font-size: 1rem;
+        margin: 0;
+    }
+    
+    .article-paragraph,
+    .third-section-paragraph {
+        font-size: 0.8rem;
+        width: 80%;
+        margin: 0;
+        margin-top: 1em;
+        margin-bottom: 2em;
+    }
+    
+    .article-header,
+    .article-paragraph {
+        width: 100%;
+    }
+    
+    .third-section-header {
+        font-size: 1.5rem;
+    }
+    
+    .third-section-paragraph {
+        width: 50%;
+        font-size: 0.7rem;
+        margin: 0 auto;
+        margin-top: 1.2em;
+    }
+    
+    .div-topic {
+        margin: 0 auto;
+        font-size: 1rem;
+    }
+    
+    .div-article-container {
+        display: flex;
+    }
+    
+    .div-article img {
+        width: 5%;
+    }
+    
+    #text-icon {
+        margin-top: 1.7em;
+    }
+    
+    #preview-icon {
+        margin-top: 1.85em;
+    }
+    
+    .div-paragraph {
+        font-size: 0.8rem;
+        width: 77%;
+    }
+    
+    .browsers {
+        display: flex;
+    }
+    
+    .clipboard-download .article-header {
+        width: 100%;
+        font-size: 1.5rem;
+    }
+    
+    .clipboard-download .article-paragraph {
+        width: 70%;
+        margin: 0 auto;
+        margin-top: 0.5em;
+    }
+    
+    .ios-mac-container {
+        display: flex;
+        width: 50%;
+        margin: 0 auto;
+        margin-top: 2em;
+    }
+    
+    .ios,
+    .mac {
+        width: 35%;
+        border-radius: 15em;
+        font-size: 0.6rem;
+        padding: 1.5em 0.3em;
+
+    }
+
+    .ios {
+        filter: drop-shadow(0px 0px 2px hsl(171, 66%, 44%));
+    }
+    
+    .ios:hover {
+        background-color: hsl(171, 66%, 44%, 0.8);
+    }
+    
+    .mac:hover {
+        background-color: hsl(233, 100%, 69%, 0.8);
+    }
+    
+    .container-footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .div-1 {
+        display: flex;
+        width: 65%;
+        margin-top: 3.3em;
+    }
+    
+    .div-1 div {
+        margin-left: 1.5em;
+    }
+    
+    .container-footer .icons {
+        width: 13%;
+        background-size: 50%;
+        font-size: 0.8rem;
+        padding: 0;
+        justify-content: none;
+        margin-right: 5em;
+    }
+    
+    .icons img{
+        width: 70%;
+        margin: 0;
+    }
+    
+    .icons img:hover {
+        background: hsl(171, 66%, 44%);
+        fill: hsl(171, 66%, 44%);
+    }
+    
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    
+}
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
